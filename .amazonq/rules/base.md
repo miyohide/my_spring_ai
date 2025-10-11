@@ -7,8 +7,8 @@
 
 それぞれの作業を以下のように定義します。
 
-- 「調査」と指示された場合、都度 `docs/researchs` に `YYYYMMDD-research.md`ファイルを作成し、記載してください
-- 「計画」と指示された場合、 `docs/plans` `YYYYMMDD-plan.md`に計画を記載してください
+- 「調査」と指示された場合、都度 `docs/researchs` に `YYYYMMDD-連番-research.md`ファイルを作成し、記載してください
+- 「計画」と指示された場合、 `docs/plans` `YYYYMMDD-連番-plan.md`に計画を記載してください
     - この段階でコードは絶対書かないでください
 - 「実装」と指示された場合、 `docs/plans` に記載された内容に基づいて実装してください
 
