@@ -18,18 +18,6 @@
 
 - 設定ファイルはproperties形式としてください。YAML形式は使わないでください。
 
-# 生成するファイルのパッケージについて
-
-Spring Bootアプリケーションで必要な各ファイルは下記のパッケージに
-`src\main\java\com\example\springaiapp`配下に下記パッケージを配置してください。
-それぞれのパッケージがない場合は新規作成してください
-
-## パッケージ一覧
-
-- Controller：Controllerクラスを格納してください。
-- Service：Serviceクラスを格納してください。
-- Repository：Repositoryクラスを格納してください。
-
 # 命名規則
 
 以下の命名規則に従ってください
