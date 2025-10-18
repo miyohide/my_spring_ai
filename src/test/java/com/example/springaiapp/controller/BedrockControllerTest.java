@@ -9,7 +9,7 @@ import com.example.springaiapp.service.BedrockService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
 /** BedrockControllerのテストクラス */
@@ -18,7 +18,7 @@ class BedrockControllerTest {
 
   @Autowired private MockMvc mockMvc;
 
-  @MockBean private BedrockService bedrockService;
+  @MockitoBean private BedrockService bedrockService;
 
   /** 正常系：メッセージ送信とレスポンス確認 */
   @Test
